@@ -1,20 +1,6 @@
-import { useEffect, useState } from "react";
 import { Tooltip } from 'react-tooltip';
 
 const DownloadCVButton = ({onButtonClick}: DownloadCVButtonProps) => {
-  const [scrollPosition, setScrollPosition] = useState(0);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrollPosition(window.scrollY);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
 
 
   return (
