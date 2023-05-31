@@ -48,8 +48,11 @@ const PortfolioProject = ({
                         <button
                             onClick={() => redirectToURL(demoLink)}
                             type="button"
-                            style={{ color: mainColor, borderColor: mainColor }}
-                            className="text transition-all hover:scale-110 hover:text-white border border-orange-400 hover:bg-orange-400 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-orange-400 dark:text-orange-400 dark:hover:text-white dark:hover:bg-orange-400 dark:focus:ring-orange-900"
+                            style={{
+                                color: mainColor,
+                                borderColor: mainColor,
+                            }}
+                            className="text transition-all hover:scale-110 hover:text-white border focus:ring-1 ring-slate-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 "
                         >
                             Demo
                         </button>
@@ -57,7 +60,7 @@ const PortfolioProject = ({
                             onClick={() => redirectToURL(repoLink)}
                             type="button"
                             style={{ color: mainColor, borderColor: mainColor }}
-                            className="transition-all hover:scale-110 hover:text-white border border-orange-400 hover:bg-orange-400 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-orange-400 dark:text-orange-400 dark:hover:text-white dark:hover:bg-orange-400 dark:focus:ring-orange-900"
+                            className="text transition-all hover:scale-110 hover:text-white border focus:ring-1 ring-slate-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 "
                         >
                             Repo
                         </button>

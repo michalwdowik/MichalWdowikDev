@@ -19,7 +19,7 @@ export default Socials
 
 const GitHubProfile = () => {
     return (
-        <li>
+        <li className="transition-all hover:scale-110 hover:brightness-75">
             <a
                 href="https://www.github.com/michalwdowik"
                 aria-label="Visit my GitHub profile"
@@ -43,7 +43,7 @@ const TwitterProfile = () => {
     const urlToTwitter = 'https://www.twitter.com/michalwdowik'
 
     return (
-        <li>
+        <li className="transition-all hover:scale-110 hover:brightness-75">
             <a href={`${urlToTwitter}`} aria-label="Visit my Twitter profile">
                 <svg
                     className="w-8 h-8 md:w-10 lg:h-10"
@@ -64,7 +64,7 @@ const LinkedInProfile = () => {
     const urlToLinkedIn = 'https://www.linkedin.com/in/michalwdowik/'
 
     return (
-        <li>
+        <li className="transition-all hover:scale-110 hover:brightness-75">
             <a href={`${urlToLinkedIn}`} aria-label="Visit my LinkedIn profile">
                 <svg
                     className="w-8 h-8 md:w-10 lg:h-10"
@@ -85,7 +85,7 @@ const MailRedirect = () => {
     const mailAddress = 'mwdowikm@gmail.com'
 
     return (
-        <li>
+        <li className="transition-all hover:scale-110 hover:brightness-75">
             <a href={`mailto:${mailAddress}`} aria-label="Send me an e-mail">
                 <svg
                     className="w-8 h-8 md:w-10 lg:h-10"
