@@ -1,7 +1,7 @@
 
 # Michal Wdowik Dev
 
-Cinematly is a web application that serves as a movie database. User interface is built using React and Material-UI, providing a visually appealing and responsive design. The application's navigation is powered by React Router. Cinematly utilizes Cypress for end-to-end testing. Overall, Cinematly aims to be a go-to platform for movie enthusiasts, offering a comprehensive movie database, watchlist functionality, and a user-friendly interface.
+Welcome to my personal portfolio page! This platform not only serves as a showcase for my work but also as a gateway to connect with me. Explore my portfolio and reach out to discuss collaboration opportunities.
 
 
 ## 🚀 Live Demo
