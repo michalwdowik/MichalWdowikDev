@@ -1,9 +1,9 @@
 const Socials = () => {
     return (
         <>
-            <h6 className="text-xl font-semibold text-white lg:text-3xl dark:text-white">
+            <p className="text-xl font-semibold text-white lg:text-3xl dark:text-white">
                 Connect with me on:
-            </h6>
+            </p>
 
             <ul className="flex items-center content-center justify-between gap-10 my-1 lg:gap-20">
                 <GitHubProfile />
@@ -20,7 +20,10 @@ export default Socials
 const GitHubProfile = () => {
     return (
         <li>
-            <a href="https://www.github.com/michalwdowik">
+            <a
+                href="https://www.github.com/michalwdowik"
+                aria-label="Visit my GitHub profile"
+            >
                 <svg
                     className="w-8 h-8 md:w-10 lg:h-10"
                     xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +44,7 @@ const TwitterProfile = () => {
 
     return (
         <li>
-            <a href={`${urlToTwitter}`}>
+            <a href={`${urlToTwitter}`} aria-label="Visit my Twitter profile">
                 <svg
                     className="w-8 h-8 md:w-10 lg:h-10"
                     xmlns="http://www.w3.org/2000/svg"
@@ -62,7 +65,7 @@ const LinkedInProfile = () => {
 
     return (
         <li>
-            <a href={`${urlToLinkedIn}`}>
+            <a href={`${urlToLinkedIn}`} aria-label="Visit my LinkedIn profile">
                 <svg
                     className="w-8 h-8 md:w-10 lg:h-10"
                     xmlns="http://www.w3.org/2000/svg"
@@ -83,7 +86,7 @@ const MailRedirect = () => {
 
     return (
         <li>
-            <a href={`mailto:${mailAddress}`}>
+            <a href={`mailto:${mailAddress}`} aria-label="Send me an e-mail">
                 <svg
                     className="w-8 h-8 md:w-10 lg:h-10"
                     width="48"
