@@ -3,6 +3,7 @@
 
 Welcome to my personal portfolio page! This platform not only serves as a showcase for my work but also as a gateway to connect with me. Explore my portfolio and reach out to discuss collaboration opportunities.
 
+
 ## 🚀 Live Demo
 [Michal Wdowik Dev - Demo](https://michalwdowik.dev/)
 
