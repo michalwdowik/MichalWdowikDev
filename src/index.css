@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -9,7 +14,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #121111;
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: bottom;
@@ -20,6 +25,46 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+ul {
+list-style: none;
+}
+
+.bottom-scroll-bar {
+  z-index: 1;
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 0.3125rem;
+  background-color: white;
+  opacity: 0.6;
+  bottom: 0px;
+  border-radius: 6.25rem;
+}
+
+@keyframes slideToTopLeft {
+  from {
+    transform: translateX(0)
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-slide-to-top-left {
+  animation-name: slideToTopLeft;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+
+.move-to-top-left {
+  position: fixed;
+  top: 2rem;
+  left: 2rem;
+  transform: translate(-100%, 0%);
+}
+
+
 /* 
 a {
   font-weight: 500;
