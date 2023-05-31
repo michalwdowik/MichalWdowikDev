@@ -2,65 +2,62 @@
 @tailwind components;
 @tailwind utilities;
 
-
 ::-webkit-scrollbar {
   display: none;
 }
-
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
   color: rgba(255, 255, 255, 0.87);
   background-color: #121111;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100vw;
   background-position: bottom;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1043%26quot%3b)' fill='none'%3e%3cpath d='M 0%2c427 C 72%2c382.6 216%2c221 360%2c205 C 504%2c189 576%2c341.8 720%2c347 C 864%2c352.2 936%2c232.8 1080%2c231 C 1224%2c229.2 1368%2c316.6 1440%2c338L1440 560L0 560z' fill='rgba(49%2c 46%2c 129%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1043'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
 }
-ul {
-list-style: none;
-}
-
 .bottom-scroll-bar {
   z-index: 1;
   position: fixed;
   left: 0;
   right: 0;
-  height: 0.3125rem;
-  background-color: white;
-  opacity: 0.6;
+  height: 0.3525rem;
+  background-color: #312e81;
+  opacity: 1;
   bottom: 0px;
   border-radius: 6.25rem;
 }
-
-@keyframes slideToTopLeft {
-  from {
-    transform: translateX(0)
-  }
-  to {
-    transform: translateX(-100%);
+.bouncing-button {
+  animation: bounce-button 1s infinite;
+}
+.move-profile-image {
+  transform: scale(0.5) translate(86vw, 148vh);
+}
+@media (min-width: 501px) and (max-width: 850px) {
+  .move-profile-image {
+    transform: scale(0.5) translate(77vw, 147vh);
   }
 }
-
-.animate-slide-to-top-left {
-  animation-name: slideToTopLeft;
-  animation-duration: 500ms;
-  animation-fill-mode: forwards;
+@media (min-width: 381px) and (max-width: 500px) {
+  .move-profile-image {
+    transform: scale(0.5) translate(70vw, 142vh);
+  }
 }
-
-
-.move-to-top-left {
-  position: fixed;
-  top: 2rem;
-  left: 2rem;
-  transform: translate(-100%, 0%);
+@media (min-width: 300px) and (max-width: 380px) {
+  .move-profile-image {
+    transform: scale(0.5) translate(70vw, 133vh);
+  }
+}
+@keyframes bounce-button {
+  0% {
+    transform: translateY(0);
+  }
+  70% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
