@@ -1,8 +1,11 @@
 import { Timeline } from "react-twitter-widgets";
 
 export const MyTwitterProfile = () => (
+  <div style={{marginBottom: '4rem', marginTop: '4rem'}}>
+
     <Timeline
       dataSource={{ sourceType: "profile", screenName: "michalwdowik" }}
-      options={{ width: "384", height: "600"}}
-    />
+      options={{ theme: 'dark', width: "350", height: '500'}}
+      />
+      </div>
   );

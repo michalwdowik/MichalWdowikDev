@@ -2,11 +2,10 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 import './App.css'
 import Bio from './Bio';
 import ContactCard from './ContactCard';
-import DownloadCVButton from './DownloadCVButton';
+// import DownloadCVButton from './DownloadCVButton';
 import ProfileHeading from './ProfileHeading';
 import ProfilePicture from './ProfilePicture';
 import { MyTwitterProfile } from './Twitter';
-import downloadCV from './downloadCV';
 import ToDoApp from './ToDoApp';
 import Cinematly from './Cinematly';
 import BottomScrollBar from './BottomScrollBar';
@@ -21,19 +20,17 @@ function App() {
           <ProfileHeading />
           <Bio />
         </section>
-        <DownloadCVButton onButtonClick={downloadCV} />
-
 
         <ToDoApp />
         <Cinematly />
 
 
 
-        <ContactCard />
         <MyTwitterProfile />
+        <ContactCard />
 
       </main>
-      <span className="block mt-10 text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 Michał Wdowik</span>
+      <span className="block mt-10 text-sm text-gray-200 sm:text-center dark:text-gray-400">© 2023 Michał Wdowik</span>
 
     </ParallaxProvider>
     <BottomScrollBar /></>
