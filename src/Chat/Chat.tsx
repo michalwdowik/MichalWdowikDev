@@ -22,7 +22,7 @@ const Chat = () => {
 
     return (
         <div
-            className={`top-10 fixed transition-all duration-300 z-40 ${
+            className={`top-10 fixed transition-all duration-500 z-40 ${
                 scrolledBetween3and9percent && 'scale-150'
             } ${scrolled9percent ? 'move-profile-image z-20' : ''}`}
         >

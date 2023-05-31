@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-::-webkit-scrollbar {
-  display: none;
+body::-webkit-scrollbar { display: none; }
+html {
+  scrollbar-width: none;
 }
 :root {
   max-width: 1280px;
