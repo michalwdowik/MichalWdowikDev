@@ -20,12 +20,12 @@ export default ProfileBio
 const Bio = () => {
     return (
         <p className="max-w-sm mt-3 text-xs text-center sm xl:max-w-xl lg:max-w-lg md:max-w-md sm:text-sm md:text-base">
-            In 2021, while maintaining my e-commerce shop and making basic
+            In 2021, while maintaining my e-commerce store and making basic
             tweaks to Shopify&apos;s templates, I encountered{' '}
             <b className="text-orange-500">HTML</b> for the first time. It
             sparked the idea of picking up programming. As I was completing my
             Master&apos;s degree, I wanted to learn something extra that would
-            enable me to create an e-commerce shop or app from scratch. My
+            enable me to create an e-commerce store or app from scratch. My
             journey began with Swift, but upon discovering that{' '}
             <b className="text-yellow-500">JavaScript</b> aligned more closely
             with my core interests, I transitioned to web development. After a
