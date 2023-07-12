@@ -35,7 +35,7 @@ const Bio = () => {
             creating apps, I got to know tools such as ESLint, Prettier, and
             TypeScript to write clean and readable code, compliant with current
             standards. At a later stage, I expanded my skills with e2e tests.
-            When creating my first application, I focused on aesthetic and
+            When creating my first application, I focused on aesthetic,
             intuitive UI and handling various user interactions. For the second
             application, Cinematly, I wanted to learn how to use the API and
             React Router. In both projects, I used the version control system -
