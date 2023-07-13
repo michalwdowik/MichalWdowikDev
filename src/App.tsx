@@ -6,7 +6,7 @@ import TweetsTimeline from './Components/TweetsTimeline'
 import BottomScrollBar from './Components/BottomScrollBar'
 import Footer from './Footer/Footer'
 import Chat from './Chat/Chat'
-import ToDoApp from './Portfolio/ToDoApp'
+import DailyFlow from './Portfolio/DailyFlow'
 import Cinematly from './Portfolio/Cinematly'
 
 const App = () => (
@@ -21,7 +21,7 @@ const App = () => (
                 id="portfolio"
                 className="flex flex-col items-center justify-center m-auto"
             >
-                <ToDoApp />
+                <DailyFlow />
                 <Cinematly />
             </section>
             <section

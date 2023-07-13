@@ -1,17 +1,17 @@
 import PortfolioProject from './PortfolioProject'
 
-const urlToDemo = 'https://to-do-app-michalwdowik.vercel.app/'
+const urlToDemo = 'https://dailyflow.vercel.app/'
 const urltoRepo = 'https://github.com/michalwdowik/ToDoApp'
 
-const toDoAppDescription = `The ToDoApp is a web application built using React,
-Typescript, Vite, Tailwind CSS, Eslint, and Prettier. To Do
-App utilizes Cypress for end-to-end testing. The app allows
-users to create and manage their to-do lists by adding,
-editing, and deleting tasks. Users can also create custom
-categories by inputting a name and selecting an icon and the
-color of the category. Every task has a &quot;details&quot;
-button that shows a modal with details of a task ie. days to
-deadline of a task.`
+const toDoAppDescription = `DailyFlow allows users to manage their daily tasks by adding, editing,
+ and deleting them. Users can also create custom categories by inputting a name and selecting an icon
+  and the color of the category. Every task has a "details" button that shows a modal with details of a task ie.
+   "days to deadline of a task". The application is responsive to user errors and successes and displays relevant alerts.
+    The React framework is used for building the user interface, while Tailwind CSS is used for styling the components. 
+    The project is designed to provide a simple and intuitive user experience, with a clean and modern interface that is easy to use and navigate.
+     DailyFlow has been optimized for performance and accessibility. It has achieved a full score and PWA status on Lighthouse.
+
+`
 
 const toDoAppFunctionalities = [
     'Add, remove tasks',
@@ -33,10 +33,10 @@ const toDoAppDesignFeatures = [
     'Responsive design',
 ]
 
-const ToDoApp = () => {
+const DailyFlow = () => {
     return (
         <PortfolioProject
-            title="TO DO APP"
+            title="DAILYFLOW"
             subtitle="Task Planner."
             demoLink={urlToDemo}
             repoLink={urltoRepo}
@@ -53,4 +53,4 @@ const ToDoApp = () => {
     )
 }
 
-export default ToDoApp
+export default DailyFlow

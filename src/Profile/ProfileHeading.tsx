@@ -15,9 +15,7 @@ const ProfileHeading = () => {
                 <h1 className="text-4xl font-bold md:text-5xl lg:text-6xl">
                     {USER_NAME}
                 </h1>
-                <h2 className="mb-5 text-xl md:text-2xl">
-                    Junior Frontend Developer
-                </h2>
+                <h2 className="mb-5 text-xl md:text-2xl">Frontend Developer</h2>
             </Parallax>
         </header>
     )
