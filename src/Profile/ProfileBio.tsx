@@ -20,33 +20,26 @@ export default ProfileBio
 const Bio = () => {
     return (
         <p className="max-w-sm mt-3 text-xs text-center sm:max-w-lg xl:max-w-3xl lg:max-w-2xl md:max-w-2xl sm:text-sm md:text-base">
-            I started my career by designing my own online store with the help
-            of the Shopify platform. Being the only person responsible for its
-            maintenance, I gained knowledge and experience in the field of
-            website SEO. I also carried out e-mail marketing campaigns using the
-            collected customer database, using tools such as MailChimp.
-            Designing my shop&apos;s website and making changes to HTML and CSS
-            files, I had the opportunity to develop UI/UX skills. Driven by the
-            desire to create websites from scratch, I learned{' '}
+            I started my career by designing my own online store. Designing my
+            shop&apos;s website and making changes to HTML and CSS files, I had
+            the opportunity to develop UI/UX skills. I also gained knowledge and
+            experience in the field of website SEO. Driven by the desire to
+            create websites from scratch, I learned{' '}
             <b className="text-orange-500">HTML</b>,{' '}
             <b className="text-green-700">CSS</b>,{' '}
             <b className="text-yellow-500">JavaScript</b>, and the{' '}
-            <b className=" text-cyan-600">React</b> library. Before I started
-            creating apps, I got to know tools such as ESLint, Prettier, and
-            TypeScript to write clean and readable code, compliant with current
-            standards. At a later stage, I expanded my skills with e2e tests.
-            When creating my first application, I focused on aesthetic,
-            intuitive UI and handling various user interactions. For the second
-            application, Cinematly, I wanted to learn how to use the API and
-            React Router. In both projects, I used the version control system -
-            Git. Over the months, web development has become my greatest
-            passion. I value the culture of knowledge sharing within the
-            developer community. In the future, I aim to actively share
-            knowledge with others. I participate in platforms like Codewars and
-            Twitter, updating my progress and sharing useful links that have
-            helped me understand various technologies. Recently, I have been
-            learning the basics of Backend and Figma. Outside of work, I enjoy
-            developing my beat-making skills.
+            <b className=" text-cyan-600">React</b> library. My goal is to write
+            maintainable, clean, and reusable code. I take care of choosing
+            reputable sources of knowledge to enhance my skills (MDN and
+            expert-led courses, such as those offered by Brian Holt on Frontend
+            Masters). I value the culture of knowledge sharing within the
+            developers community. Participating in platforms like Codewars and
+            Twitter, I share links that have helped me understand various
+            technologies. I appreciate feedback and welcome criticism,
+            recognizing its value in driving improvement. Recently, I have been
+            learning the basics of Backend and Figma to prepare myself for
+            cooperation with teammates. Outside of work, I enjoy developing my
+            beat-making skills.
         </p>
     )
 }
