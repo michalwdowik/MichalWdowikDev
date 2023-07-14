@@ -30,16 +30,14 @@ const Bio = () => {
             <b className="text-yellow-500">JavaScript</b>, and the{' '}
             <b className=" text-cyan-600">React</b> library. My goal is to write
             maintainable, clean, and reusable code. I take care of choosing
-            reputable sources of knowledge to enhance my skills (MDN and
-            expert-led courses, such as those offered by Brian Holt on Frontend
-            Masters). I value the culture of knowledge sharing within the
-            developers community. Participating in platforms like Codewars and
-            Twitter, I share links that have helped me understand various
-            technologies. I appreciate feedback and welcome criticism,
-            recognizing its value in driving improvement. Recently, I have been
-            learning the basics of Backend and Figma to prepare myself for
-            cooperation with teammates. Outside of work, I enjoy developing my
-            beat-making skills.
+            reputable sources of knowledge to enhance my skills. I value the
+            culture of knowledge sharing within the developers community.
+            Participating in platforms like Codewars and Twitter, I share links
+            that have helped me understand various technologies. I appreciate
+            feedback and welcome criticism, recognizing its value in driving
+            improvement. Recently, I have been learning the basics of Backend
+            and Figma to prepare myself for cooperation with teammates. Outside
+            of work, I enjoy developing my beat-making skills.
         </p>
     )
 }
