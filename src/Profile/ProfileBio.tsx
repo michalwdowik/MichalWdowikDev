@@ -36,8 +36,10 @@ const Bio = () => {
             that have helped me understand various technologies. I appreciate
             feedback and welcome criticism, recognizing its value in driving
             improvement. Recently, I have been learning the basics of Backend
-            and Figma to prepare myself for cooperation with teammates. Outside
-            of work, I enjoy developing my beat-making skills.
+            and Figma to prepare myself for cooperation with teammates.
+            Currently, I am working at Binatec as a frontend developer, where I
+            support the implementation of the company&apos;s new website.
+            Outside of work, I enjoy developing my beat-making skills.
         </p>
     )
 }
