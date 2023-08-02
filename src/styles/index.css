@@ -62,3 +62,16 @@ html {
   }
 }
 
+.techStack {
+display: flex;
+}
+
+.technology {
+  display: flex;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  margin: 3rem;
+  mix-blend-mode: multiply;
+
+}
