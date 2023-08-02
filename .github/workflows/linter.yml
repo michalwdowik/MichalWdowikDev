@@ -26,3 +26,5 @@ jobs:
             exit 1
           fi
         shell: bash
+
+      # ... (other steps, such as running tests or deploying)
