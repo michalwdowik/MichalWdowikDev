@@ -8,6 +8,7 @@ import Footer from './Footer/Footer'
 import Chat from './Chat/Chat'
 import DailyFlow from './Portfolio/DailyFlow'
 import Cinematly from './Portfolio/Cinematly'
+// import TechStack from './Components/TechStack'
 
 const App = () => (
     <>
@@ -17,6 +18,7 @@ const App = () => (
                 <ProfileHeading />
                 <ProfileBio />
             </main>
+            {/* <TechStack /> */}
             <section
                 id="portfolio"
                 className="flex flex-col items-center justify-center m-auto"
