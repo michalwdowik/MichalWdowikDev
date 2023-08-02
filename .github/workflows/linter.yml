@@ -1,11 +1,5 @@
-name: Run Unit Tests and Lint Files
-on:
-  push:
-    branches:
-      - main # Adjust the branch name as needed
-  pull_request:
-    branches:
-      - main # Adjust the branch name as needed
+name: Run 'npm run lint'
+on: 'push'
 jobs:
   unit_test-lint:
     runs-on: ubuntu-latest
