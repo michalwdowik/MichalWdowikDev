@@ -8,14 +8,28 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
       - name: Checkout Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
         with:
           fetch-depth: 0
       
       - name: Lint Code Base
+        run: npm run lint
+
+      - name: Check Linting Results
+        run: |
+          # Run your linting command and store the output in a variable
+          lint_output=$(npm run lint --silent)
+
+          # Check if there are any linting errors
+          if [[ $lint_output == *"error"* ]]; then
+            echo "Linting errors found:"
+            echo "$lint_output"
+            exit 1
+          fi
+          
+      - name: Finalize
         uses: github/super-linter@v4
         env:
-            VALIDATE_JAVASCRIPT_ES: true
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VALIDATE_JAVASCRIPT_ES: true
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
