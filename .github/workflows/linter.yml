@@ -17,11 +17,9 @@ jobs:
         run: npm run lint
 
       - name: Check Linting Results
-        run: |
-          # Run your linting command and store the output in a variable
-          lint_output=$(npm run lint --silent)
+        run:
+          lint_output=$(npm run lint)
 
-          # Check if there are any linting errors
           if [[ $lint_output == *"error"* ]]; then
             echo "Linting errors found:"
             echo "$lint_output"
