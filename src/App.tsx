@@ -8,11 +8,11 @@ import Footer from './Footer/Footer'
 import Chat from './Chat/Chat'
 import DailyFlow from './Portfolio/DailyFlow'
 import Cinematly from './Portfolio/Cinematly'
-// import TechStack from './Components/TechStack'
 
 const App = () => (
     <>
         <ParallaxProvider>
+            ;
             <main className="flex flex-col items-center justify-center m-auto">
                 <Chat />
                 <ProfileHeading />

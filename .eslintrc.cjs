@@ -22,7 +22,7 @@ module.exports = {
         'dist/assets',
         'workbox-cbd5c79e.js',
         '/dev-dist',
-        '/dist',
+        // '/dist',
     ],
     parser: '@typescript-eslint/parser',
     parserOptions: {
