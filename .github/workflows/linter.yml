@@ -12,4 +12,15 @@ jobs:
 
       - name: Run linting
         run: npm run lint
-        continue-on-error: false
+        continue-on-error: false  # Continue to the next step even if linting fails
+
+      - name: Check linting errors
+        run: |
+          if [[ ${{ job.status }} == 'failure' ]]; then
+            echo "Linting failed. Aborting the push."
+            exit 1
+          fi
+        shell: bash
+
+      # ... (other steps, such as running tests or deploying)
+
