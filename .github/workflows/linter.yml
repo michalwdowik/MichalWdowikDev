@@ -1,5 +1,12 @@
 name: Run 'npm run lint'
-on: push
+on:
+  push:
+    branches:
+      - main  
+  pull_request:
+    branches:
+      - main  
+      
 jobs:
   unit_test-lint:
     runs-on: ubuntu-latest
@@ -23,4 +30,3 @@ jobs:
         shell: bash
 
       # ... (other steps, such as running tests or deploying)
-

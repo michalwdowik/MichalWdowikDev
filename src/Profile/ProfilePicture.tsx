@@ -15,7 +15,3 @@ const ProfilePicture = () => {
 }
 
 export default ProfilePicture
-
-const test = ''
-
-test()
