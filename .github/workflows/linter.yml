@@ -17,7 +17,7 @@ jobs:
 
       - name: Run linting
         run: npm run lint
-        continue-on-error: false  # Continue to the next step even if linting fails
+        continue-on-error: false  
 
       - name: Check linting errors
         run: |
@@ -26,5 +26,3 @@ jobs:
             exit 1
           fi
         shell: bash
-
-      # ... (other steps, such as running tests or deploying)
