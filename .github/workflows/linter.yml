@@ -1,19 +1,9 @@
 name: Run Unit Tests and Lint Files
-
-on:
-  push:
-    branches:
-      - main  
-
+"on": push
 jobs:
   unit_test-lint:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      
-      - name: Install dependencies
-        run: npm install
-
-      - name: Run linting
-        run: npm run lint
+      - uses: actions/checkout@v2
+      - run: |
+              npm run lint
