@@ -27,4 +27,3 @@ jobs:
           fi
         shell: bash
 
-      # ... (other steps, such as running tests or deploying)
