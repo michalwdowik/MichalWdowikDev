@@ -1,5 +1,9 @@
 import { TypeAnimation } from 'react-type-animation'
 
+type ChatBubbleType = {
+    message: string
+}
+
 const ChatBubble = ({ message }: ChatBubbleType) => {
     return (
         <TypeAnimation
@@ -9,7 +13,3 @@ const ChatBubble = ({ message }: ChatBubbleType) => {
     )
 }
 export default ChatBubble
-
-type ChatBubbleType = {
-    message: string
-}

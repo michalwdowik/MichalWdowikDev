@@ -1,21 +1,30 @@
-name: Lint Code Base
-
-on: [push, pull_request]
+name: Run 'npm run lint'
+on:
+  push:
+    branches-ignore:
+      - master
+      - main
+  pull_request:
+    branches:
+      - '*'
 
 jobs:
-  build:
-    name: Lint Code Base
+  unit_test-lint:
     runs-on: ubuntu-latest
-
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-      - name: Checkout Code
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-      
-      - name: Lint Code Base
-        uses: github/super-linter@v4
-        env:
-            VALIDATE_JAVASCRIPT_ES: true
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run linting
+        run: npm run lint
+        continue-on-error: false
+
+      - name: Check linting errors
+        run: |
+          if [ ${{ job.status }} == 'failure' ]; then
+            echo "Linting failed. Aborting the push."
+            exit 1
+          fi
