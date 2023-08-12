@@ -28,18 +28,18 @@ const Bio = () => {
             <b className="text-orange-500">HTML</b>,{' '}
             <b className="text-green-700">CSS</b>,{' '}
             <b className="text-yellow-500">JavaScript</b>, and the{' '}
-            <b className=" text-cyan-600">React</b> library. My goal is to write
-            maintainable, clean, and reusable code. I take care of choosing
-            reputable sources of knowledge to enhance my skills. I value the
-            culture of knowledge sharing within the developers community.
-            Participating in platforms like Codewars and Twitter, I share links
-            that have helped me understand various technologies. I appreciate
-            feedback and welcome criticism, recognizing its value in driving
-            improvement. Recently, I have been learning the basics of Backend
-            and Figma to prepare myself for cooperation with teammates.
-            Currently, I am working at Binatec as a frontend developer, where I
-            support the implementation of the company&apos;s new website.
-            Outside of work, I enjoy developing my beat-making skills.
+            <b className=" text-cyan-600">React</b> library. My goal is to
+            deliver high-quality, reusable code while continuously expanding my
+            skill set to become a full-stack developer in the future. To achieve
+            this, I actively seek out reputable sources of knowledge like
+            workshops/lectures on Frontend Masters offered by experienced
+            developers. I am passionate about web development, my favorite
+            technologies are React and JavaScript. You can find me on Codewars
+            and Twitter, where I share links that have helped me understand
+            various technologies. I appreciate every form of feedback as it
+            helps me improve. Currently, at Lemmy, I&apos;m part of a team
+            creating software for hardware-based vinyl playback. I also handle
+            frontend tasks for Binatec.
         </p>
     )
 }
