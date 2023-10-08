@@ -37,9 +37,13 @@ const Bio = () => {
             technologies are React and JavaScript. You can find me on Codewars
             and Twitter, where I share links that have helped me understand
             various technologies. I appreciate every form of feedback as it
-            helps me improve. Currently, at Lemmy, I&apos;m part of a team
-            creating software for hardware-based vinyl playback. I also handle
-            frontend tasks for Binatec.
+            helps me improve. In September 2023, I completed an internship at
+            Lemmy, where I contributed to the development of a software
+            application designed to enhance the user experience of the
+            revolutionary LP record player. In addition to my internship at
+            Lemmy, I took on Frontend responsibilities at Binatec Agency, where
+            I expanded my knowledge in web development. Currently I work as a
+            Junior Frontend Developer at Nearshore Services Poland.
         </p>
     )
 }
